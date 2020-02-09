@@ -26,6 +26,8 @@ body {
     }
 }
 
+
+
 .pic1 {
     background: white url(images/pic1.png) no-repeat center center;
     background-size: cover;
@@ -74,6 +76,91 @@ body {
 }
 
 .contact {
-    background: white url(images/contact.png) no-repeat center center;
+    background: url(images/contact.png) no-repeat center center;
     background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.contact .container{
+    background:#504d48;
+    color:white;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 20px #fc5439;
+}
+.form-box h3 {
+    color:white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 40px;
+}
+
+.form-input{
+    width: 100%;
+
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+  }
+
+  input[type=submit]{
+    background-color: #fc5439;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .lowerline{
+      padding-top: 20px;
+      
+      background-color:#fc5439;
+      height: 220px;
+      color: #504d49;
+      text-align: center;
+      font-size: 15px;
+  }
+
+  .fontawesome{
+     font: caption;
+     font-size: 38px;
+     
+  }
