@@ -75,6 +75,20 @@ body {
     color:#504d49;
 }
 
+.carousel{
+    height: calc(100vh - 180px);
+    width: calc(100vh - 180px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: flex;
+    align-items: center;
+}
+
 .contact {
     background: url(images/contact.png) no-repeat center center;
     background-size: cover;
